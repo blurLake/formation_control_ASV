@@ -10,10 +10,11 @@ import numpy as np
 from scipy.integrate import odeint 
 import matplotlib.pyplot as plt
 
-
+# b,c,d are three edge lengths of the desired formation
 b = 1.0
 c = 1.0
 d = 2.0
+
 y0 = [1,1,3,3,2,1]
 t = np.linspace(0, 100, 100000)
 
